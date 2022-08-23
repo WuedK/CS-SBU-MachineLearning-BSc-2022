@@ -1,6 +1,14 @@
 # General: 
 
  > [Assignment PDF (Farsi)](https://github.com/WuedK/CS-SBU-MachineLearning-BSc-2022/blob/main/submits/98222036/project3/ML_Project3_2022.pdf)
+ 
+ ## Abstract
+  
+   In this project, 4 different services are implemented and they can be tested using [Postman](https://www.postman.com/) or similar applications.
+   The input and output format of the services' API is JSON and its documantation can be found [here](https://sbu-ml-project-3-service-arman-sbu-ml-cloud.fandogh.cloud/swagger). There are also some input examples in the [app/input_outputs](https://github.com/WuedK/CS-SBU-MachineLearning-BSc-2022/tree/main/submits/98222036/project3/app/input_outputs) route.
+   
+   * Service 1: Time Series Interpolation Service
+     This Service takes some Date-Time data (either in Chiristian(miladi) or Persian(shamsi) date-time format) along with some values. The sevice then useses interpolation methods to resample missing data. The interpolation can be done by years, months, days, hours, minutes or seconds and the interpolation method can be either polynomial or spline with order of 1 or 2. Moreover, 
 
 # Routes:
 
