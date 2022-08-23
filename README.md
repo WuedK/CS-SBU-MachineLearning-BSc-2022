@@ -1,6 +1,9 @@
 # CS-SBU-MachineLearning-BSc-2022
-Machine Learning Course of Computer Science Faculty of Shahid Beheshti University. Winter 2022
+Machine Learning Course of Computer Science Faculty of Shahid Beheshti University.
 
+ > Instructor: Dr. Hadi Farahani
+
+ > Winter-Spring 2022
 
 # Projects
 
