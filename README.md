@@ -2,7 +2,7 @@
 Machine Learning Course of Computer Science Faculty of Shahid Beheshti University. Winter 2022
 
 
-# projects
+# Projects
 
 
 | project | project folder url|
