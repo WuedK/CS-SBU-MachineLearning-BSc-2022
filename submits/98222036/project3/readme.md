@@ -17,7 +17,7 @@
      
    * Service 3: Outlier Detection Service
    
-     This service takes some data which can be time-series or not, and then it uses different outlier detection methods to predict whether a data is outlier or not. The output is a JSON consisting of 5 (if the data format is not time-series) or 3 (if the data is time-series) parts. One part is the id or date-time and other parts are the results of applying different interpolation methods on the dataset. For instance, if the second element of the first part of the output(excluding the id) is false then the second element is not considered to be an outlier by the first outlier detection method.
+     This service takes some data which can be time-series or not, and then it uses different outlier detection methods to predict whether a data is outlier or not. The output is a JSON consisting of 5 (if the data format is not time-series) or 3 (if the data is time-series) parts. One part is the id or the date-time and other parts are the results of applying different interpolation methods on the dataset. For instance, if the second element of the first part of the output(excluding the id) is false then the second element is not considered to be an outlier by the first outlier detection method.
      The methods used for time-series data are isolation forest and dbscan and the methods used for other data types are z-score, Local Outlier Factor(LOF), isolation forest and one class SVM.
      
 # Routes:
